@@ -1,0 +1,28 @@
+source1_entity_id	candidate_entity_id	s1_name	s1_address	s1_country	candidate_name	candidate_address	candidate_country	name_similarity	address_similarity	country_match	label	match_probability	predicted_match
+S1_001	S2_001	Apple Technologies Inc.	1 Infinite Loop Cupertino CA 95014	US	Apple Technology	1 Infinite Loop Cupertino CA 95014	US	0.7063745971862766	1.0000000000000007	1	1	1.0	1
+S1_001	S2_009	Apple Technologies Inc.	1 Infinite Loop Cupertino CA 95014	US	Apple Computer Company	1 Infinite Loop Cupertino California	US	0.11936270516624682	0.6884611225942259	1	1	0.9	1
+S1_001	S2_012	Apple Technologies Inc.	1 Infinite Loop Cupertino CA 95014	US	Completely Different Foods	45 Market Street Mumbai 400001	India	0.026752943069827097	0.0034496346385488492	0	0	0.005	0
+S1_001	S3_001	Apple Technologies Inc.	1 Infinite Loop Cupertino CA 95014	US	Apple Technologies Inc.	1 Infinite Loop Cupertino CA	US	1.0	0.8812674999842471	1	1	1.0	1
+S1_001	S3_009	Apple Technologies Inc.	1 Infinite Loop Cupertino CA 95014	US	Apple Inc	California Cupertino 1 Infinite Loop	US	0.37882535547460183	0.5388979646502049	1	1	1.0	1
+S1_002	S2_002	Tata Consultancy Services Ltd.	Plot 1 Hinjewadi Phase 1 Pune 411057	India	Tata Consultancy Services	Plot 1 Hinjewadi Phase-I Pune 411057	India	0.9241217270884546	0.8021093636985379	1	1	1.0	1
+S1_002	S2_010	Tata Consultancy Services Ltd.	Plot 1 Hinjewadi Phase 1 Pune 411057	India	Tata CS	Hinjewadi Phase 1 Pune Maharashtra	India	0.33713487366409695	0.5268188356977517	1	1	1.0	1
+S1_002	S3_002	Tata Consultancy Services Ltd.	Plot 1 Hinjewadi Phase 1 Pune 411057	India	TCS	Plot 1 Hinjewadi Phase 1 Pune	India	0.0	0.881830240393195	1	1	0.955	1
+S1_002	S3_010	Tata Consultancy Services Ltd.	Plot 1 Hinjewadi Phase 1 Pune 411057	India	Tata Consultancy Services Ltd.	Pune Hinjewadi Phase 1	India	1.0000000000000007	0.647742980799555	1	1	1.0	1
+S1_002	S3_012	Tata Consultancy Services Ltd.	Plot 1 Hinjewadi Phase 1 Pune 411057	India	Sunrise Bakery	12 MG Road Chennai 600001	India	0.02460595724829972	0.00976798259692401	1	0	0.03	0
+S1_003	S2_003	Infosys Limited	Electronic City Bengaluru 560100	India	Infosys Ltd	Electronic City Bengaluru 560100	India	0.6172465247543403	1.0000000000000013	1	1	1.0	1
+S1_003	S2_011	Infosys Limited	Electronic City Bengaluru 560100	India	Infosys Technologies	Electronic City Bangalore	India	0.37742693830029966	0.5091701683978105	1	1	1.0	1
+S1_003	S3_003	Infosys Limited	Electronic City Bengaluru 560100	India	Infosys	Electronic City Bengaluru Karnataka	India	0.6003473130931913	0.6319619037811639	1	1	1.0	1
+S1_003	S3_011	Infosys Limited	Electronic City Bengaluru 560100	India	Infosys Limited	Bengaluru Electronic City	India	0.9999999999999999	0.6983768505076464	1	1	1.0	1
+S1_004	S2_004	McDonald's Corporation	110 N Carpenter St Chicago IL 60607	US	McDonalds Corp	110 N Carpenter Street Chicago IL 60607	US	0.5372323174139704	0.8689224102508368	1	1	1.0	1
+S1_004	S3_004	McDonald's Corporation	110 N Carpenter St Chicago IL 60607	US	McDonald's	110 N Carpenter St Chicago	US	0.6326416893056308	0.8267577741304972	1	1	1.0	1
+S1_004	S3_012	McDonald's Corporation	110 N Carpenter St Chicago IL 60607	US	Sunrise Bakery	12 MG Road Chennai 600001	India	0.0	0.04335520675951333	0	0	0.055	0
+S1_005	S2_005	Reliance Industries Limited	3rd Floor Maker Chambers IV Mumbai 400021	India	Reliance Industries Ltd	3rd Floor Maker Chambers IV Mumbai 400021	India	0.8513113762456329	1.000000000000002	1	1	1.0	1
+S1_005	S3_005	Reliance Industries Limited	3rd Floor Maker Chambers IV Mumbai 400021	India	Reliance Industries	Maker Chambers IV Mumbai	India	0.8532875022506539	0.7420923552199559	1	1	1.0	1
+S1_005	S3_012	Reliance Industries Limited	3rd Floor Maker Chambers IV Mumbai 400021	India	Sunrise Bakery	12 MG Road Chennai 600001	India	0.01778197781913353	0.0749201082996299	1	0	0.03	0
+S1_006	S2_006	Amazon Web Services Inc.	410 Terry Ave N Seattle WA 98109	US	Amazon Web Services	410 Terry Avenue North Seattle WA 98109	US	0.9106492023212356	0.7106583278633423	1	1	1.0	1
+S1_006	S3_006	Amazon Web Services Inc.	410 Terry Ave N Seattle WA 98109	US	AWS	410 Terry Ave N Seattle WA	US	0.0	0.8914451156022947	1	1	0.955	1
+S1_007	S2_007	Microsoft Corporation	One Microsoft Way Redmond WA 98052	US	Microsoft Corp	One Microsoft Way Redmond Washington 98052	US	0.8029271499675642	0.7805929963655933	1	1	1.0	1
+S1_007	S3_007	Microsoft Corporation	One Microsoft Way Redmond WA 98052	US	Microsoft	One Microsoft Way Redmond WA	US	0.6022413442776902	0.8988196941718797	1	1	1.0	1
+S1_008	S2_008	HCL Technologies Ltd.	Plot 3A Sector 126 Noida 201304	India	HCL Tech	Plot 3A Sector 126 Noida 201304	India	0.6034892432804906	1.0000000000000002	1	1	1.0	1
+S1_008	S3_008	HCL Technologies Ltd.	Plot 3A Sector 126 Noida 201304	India	HCL Technologies	Noida Sector 126 Plot 3A	India	0.8667964082441446	0.6597900109630817	1	1	1.0	1
+S1_008	S2_012	HCL Technologies Ltd.	Plot 3A Sector 126 Noida 201304	India	Completely Different Foods	45 Market Street Mumbai 400001	India	0.003972687037586705	0.012562790161438082	1	0	0.095	0
